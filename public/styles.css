@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title-text{
+    font-size: 3.5rem;
+}
+
+.container-fluid{
+    padding:5% 10%;
+}
+
+
+/* homepage */
+.home-main{
+    background-color: aliceblue;
+/* padding: 7% 10% */
+min-height: 92vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.home-main img{
+    max-width: 100%;
+    position: relative;
+    left:200px;
+}
+/* ======== */

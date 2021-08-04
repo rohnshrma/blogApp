@@ -1,0 +1,25 @@
+<%- include("partials/header") -%>
+
+
+<div class="main container-fluid">
+    <h1>Login</h1>
+    <div class="auth-box">
+        <div class="row">
+            <div class="col-lg-8">
+                <form action="/login" method="POST">
+                <input type="text" class="form-control mb-3" placeholder="Email Address" name="username">
+                <input type="text" class="form-control mb-3" placeholder="Password" name="password">
+                <button type="submit" class="btn btn-block btn-dark mb-3">Login</button>
+                </form>
+                <a href="/register">Sign Up for a New Account</a>
+            </div>
+            <div class="col-lg-4">
+                <!-- oauth buttons to be included further -->
+                <a href="/auth/google" class="btn btn-block btn-danger" role="button"><span><i class="fab fa-google mr-3"></i></span>Sign In with Google</a>
+            </div>
+        </div>
+    </div>    
+</div>
+
+
+<%- include("partials/footer") -%>
